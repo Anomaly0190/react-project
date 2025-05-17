@@ -26,7 +26,6 @@ const BookAppointment = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // TODO: Replace this with actual API call
     console.log('Appointment Data:', formData);
     setSubmitted(true);
   };
